@@ -1,0 +1,9 @@
+Per eseguire i progetti in locale, dopo aver fatto la fork, sono stati eseguiti i seguenti comandi:
+
+Bookkeeper:
+	- mvn verify  -DfailIfNoTests=false  -PprofTest org.pitest:pitest-maven:mutationCoverage
+	
+Zookeeper:
+	- mvn verify  -DfailIfNoTests=false  -PprofTest org.pitest:pitest-maven:mutationCoverage
+	
+Con i seguenti comandi, per i due progetti, verranno eseguiti i test, Jacoco e Pit. 
